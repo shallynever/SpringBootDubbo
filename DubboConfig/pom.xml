@@ -10,7 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>DubboConfig</artifactId>
+    <description>Dubbo服务配置方式</description>
     <packaging>pom</packaging>
+
     <modules>
         <module>DubboConfigXML</module>
         <module>DubboConfigAnnotation</module>
@@ -26,6 +28,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
 </project>
