@@ -8,7 +8,7 @@ import org.apache.dubbo.config.annotation.Service;
  * @date 2020-04-15 4:22 下午
  * @description Dubbo提供者
  */
-@Service(version = "1.0.0")
+@Service(version = "${demo.service.version}")
 public class DemoServiceImpl implements DemoService {
     @Override
     public String sayHello(String name) {

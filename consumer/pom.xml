@@ -21,5 +21,11 @@
             <groupId>com.zhouj.endless</groupId>
             <artifactId>api</artifactId>
         </dependency>
+        <!--zookeeper-->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-dependencies-zookeeper</artifactId>
+            <type>pom</type>
+        </dependency>
     </dependencies>
 </project>

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class DemoServiceController {
-    @Reference(version = "1.0.0", url = "dubbo://127.0.0.1:12345")
+    @Reference(version = "${demo.service.version}")
     private DemoService demoService;
 
     @RequestMapping("/hello")
