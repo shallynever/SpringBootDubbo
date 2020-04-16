@@ -9,8 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @description 提供者启动
  */
 @SpringBootApplication
-public class ProviderApplication {
+public class  AnnotationProvider{
     public static void main(String[] args) {
-        SpringApplication.run(ProviderApplication.class, args);
+        SpringApplication.run(AnnotationProvider.class, args);
     }
 }

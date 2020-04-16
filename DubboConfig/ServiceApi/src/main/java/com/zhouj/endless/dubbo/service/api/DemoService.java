@@ -16,6 +16,9 @@
  */
 package com.zhouj.endless.dubbo.service.api;
 
+/**
+ * @author zero
+ */
 public interface DemoService {
     String sayHello(String name);
 }
