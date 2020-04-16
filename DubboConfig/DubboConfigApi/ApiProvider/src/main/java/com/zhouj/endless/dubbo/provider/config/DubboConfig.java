@@ -62,6 +62,7 @@ public class DubboConfig {
         List<MethodConfig> methods = new ArrayList();
         methods.add(methodConfig);
         serviceConfig.setMethods(methods);
+        serviceConfig.export();
         return serviceConfig;
     }
 
