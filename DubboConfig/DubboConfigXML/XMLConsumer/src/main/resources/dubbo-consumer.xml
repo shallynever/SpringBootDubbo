@@ -25,7 +25,7 @@
 
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
 
-    <dubbo:consumer version="1.0.0"/>
+    <dubbo:consumer version="1.0.0" check="false"/>
 
-    <dubbo:reference id="demoService" check="false" interface="com.zhouj.endless.dubbo.service.api.DemoService"/>
+    <dubbo:reference id="demoService" interface="com.zhouj.endless.dubbo.service.api.DemoService"/>
 </beans>

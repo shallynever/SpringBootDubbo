@@ -18,6 +18,7 @@
         <module>DubboConfigAnnotation</module>
         <module>ServiceApi</module>
         <module>DubboConfigApi</module>
+        <module>DubboConfigCenter</module>
     </modules>
 
     <dependencyManagement>
